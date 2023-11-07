@@ -19,7 +19,7 @@ exports.callPalmApi = functions.https.onRequest((_req:any, res:any) => {
       // Perform any necessary Firebase authentication or authorization checks here
 
       // Replace this URL with your actual external API URL
-      const apiUrl = "https://us-central1-my-project.cloudfunctions.net/call-palm-api";
+      const apiUrl = "https://australia-southeast1-testpalmapi-4ea35.cloudfunctions.net/ext-palm-secure-backend-post";
 
       // Make a secure request to the external API
       myFetch(apiUrl)
